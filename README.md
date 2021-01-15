@@ -5,7 +5,7 @@ Public documentation for students attending the canhack course by Assured
 SSH key and student identification number will be provided by the instructor. 
 
 ## Setup student proxy
-*NOTE! Port in this example could be any unused port over 1024. *
+*NOTE! Port in this example could be any unused port over 1024.*
 `studentX` should be `student1`, `student2`, `student3` etc.
 ```
 ssh -i student -fND 9999 studentX@canhack.assured.se 
