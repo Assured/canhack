@@ -9,7 +9,7 @@ SSH key and student identification number will be provided by the instructor.
 
 `studentX` should be `student1`, `student2`, `student3` etc.
 ```
-ssh -i student -fND 9999 studentX@canhack.assured.se 
+ssh -i student_private_key -fND 9999 studentX@canhack.assured.se 
 ```
 
 ## SOCKS4 PROXY
