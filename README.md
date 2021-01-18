@@ -37,6 +37,7 @@ ssh -i student_private_key -o 'ProxyCommand nc -x 127.0.0.1:9999 %h %p' canuser@
 ## Labs
 ### Lab 1 - Lies on the bus!
 Number of flags: 3
+
 Tools: cansend, candump
 
 Create your own CAN frames using the command “cansend”. Interact with the system by sending your own CAN frames on the CAN bus.
@@ -50,6 +51,7 @@ Try to find which arbitration IDs exist, what their functions are and how to con
 
 ### Lab 2 - Firmware update
 Number of flags: 2
+
 Tools: cansend, candump
 
 The developers implemented a firmware update service. The service is password protected for security reasons, try to find out the username and password to access the service. Try to update the firmware of the device using this service. If something isn’t working, try to solve the issue.
@@ -62,6 +64,7 @@ The developers implemented a firmware update service. The service is password pr
 
 ### Lab 3 - I lost my keys!
 Number of flags: 1
+
 Tools: candump, calculator 
 
 There’s an API call “/api/remote/engine/[start|stop]”.
