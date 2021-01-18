@@ -22,7 +22,7 @@ ssh -i student_private_key -fND 9999 studentX@canhack.assured.se
 ```
 
 ### SOCKS4 PROXY
-To be able to access the web services of both cycar and backend you'll need to instruct your browser to connect through the SSH proxy. If you've used the same port number as the example above, instruct your browser to proxy traffic through IP 127.0.0.1 PORT 9999. 
+To be able to access the web services of both cycar and backend you'll need to instruct your browser to connect through the SSH proxy. If you've used the same port number as the example above, instruct your browser to proxy traffic through IP 127.0.0.1 PORT 9999. *This setup has been tested with Mozilla Firefox version 84.0.2.*
 
 The backend service and race-track will be located at `http://172.16.5.100`.
 
