@@ -39,12 +39,11 @@ ssh -i student_private_key -o 'ProxyCommand nc -x 127.0.0.1:9999 %h %p' canuser@
 Number of flags: 3
 Tools: cansend, candump
 
-Create your own CAN frames using either the command “cansend”. Interact with the system by sending your own CAN frames on the CAN bus.
+Create your own CAN frames using the command “cansend”. Interact with the system by sending your own CAN frames on the CAN bus.
 
 Try to find which arbitration IDs exist, what their functions are and how to control these functions using the API.
 
- - Can you turn on/off the “warning light”?
-   (Only the left and right turn signals!)
+ - Can you turn on/off the “warning light”? (Only the left and right turn signals!)
  - Can you turn on all the lights at the same time? 
  - Can you change the advertised speed?
 
