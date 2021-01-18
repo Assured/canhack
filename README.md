@@ -30,8 +30,14 @@ The cycar avaiable to you will be located at `http://172.16.5.10X` (where X corr
 
 ### SSH to cycar
 To access the labs and the CAN bus you'll need to connect to the cycar. If your username is `student1` then the IP address of the cycar is `172.16.5.101`, if `student2` then the IP address is `172.16.5.102`, if `student10`then the IP address is `172.16.5.110` etc.
+
+#### Linux/Mac OS
 ```
 ssh -i student_private_key -o 'ProxyCommand nc -x 127.0.0.1:9999 %h %p' canuser@172.16.5.10X
+```
+#### Windows
+```
+ssh -i student_private_key -o 'ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -i student_private_key studentX@canhack.assured.se -W %h:%p' canuser@172.16.5.10X
 ```
 
 ## Labs
