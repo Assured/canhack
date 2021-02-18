@@ -50,7 +50,7 @@ Create your own CAN frames using the command “cansend”. Interact with the sy
 
 Try to find which arbitration IDs exist, what their functions are and how to control these functions using the API.
 
- - Can you turn on/off the “warning light”? (Only the left and right turn signals!)
+ - Can you turn on/off the “warning light”? 
  - Can you turn on all the lights at the same time? 
  - Can you change the advertised speed?
 
